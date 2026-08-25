@@ -31,7 +31,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: environments/25-aug-storage-account
+        working-directory: 25-aug-storage-account
 
     steps:
       - name: Checkout code
