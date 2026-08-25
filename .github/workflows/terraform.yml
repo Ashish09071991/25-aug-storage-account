@@ -9,7 +9,7 @@ on:
       - main
 
 concurrency:
-  group: 25-aug-storage-account-${{ github.ref }}
+  group: terraform-prod-${{ github.ref }}
   cancel-in-progress: true
 
 env:
@@ -31,7 +31,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: environments/25-aug-storage-account
+        working-directory: ./
 
     steps:
       - name: Checkout code
