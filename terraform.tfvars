@@ -3,6 +3,10 @@ x = {
     name     = "rg-prod"
     location = "eastus"
   }
+  rg2 = {
+    name     = "rg-dev"
+    location = "eastus"
+  }
 }
 
 y = {
